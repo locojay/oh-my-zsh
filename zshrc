@@ -22,7 +22,7 @@ export ZSH_THEME="nicoulaj"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight)
+plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
