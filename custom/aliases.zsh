@@ -83,3 +83,9 @@ alias ta="tmux attach -t"
 
 alias pjson="python -m json.tool"
 alias ipython="ipython --editor vim"
+
+alias rsync-update=rsync -auvz --progress
+
+alias iconvutf8="iconv -f ISO8859-1 -t UTF-8"
+
+alias glpp="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
