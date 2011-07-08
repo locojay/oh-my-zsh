@@ -1,4 +1,4 @@
-from fabric.api import local
+from fabric.api import local,lcd
 
 
 def _installdependenciesosx():
@@ -8,6 +8,10 @@ def _installdependenciesosx():
 def _installdependencieslinux():
     local("sudo git clone https://github.com/joelthelion/autojump.git /tmp/autojump")
     local("sudo chmod +x /tmp/autojump/install.sh")
+    with lcd("/tmp/autojump/"):
+        local("./install.sh")
+        local("cp autojump.zsh /etc/profle.d/")
+
     local("sudo apt-get install source-highlight")
 
 def _symlink():

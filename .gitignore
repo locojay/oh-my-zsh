@@ -5,4 +5,5 @@ custom/*
 !custom/brew.plugin.zsh
 !custom/example
 !custom/example.zsh
+!custom/autojump.zsh
 cache
