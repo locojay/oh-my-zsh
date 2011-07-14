@@ -6,4 +6,5 @@ custom/*
 !custom/example
 !custom/example.zsh
 !custom/autojump.plugin.zsh
+!custom/osx.plugin.zsh
 cache
