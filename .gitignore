@@ -8,3 +8,4 @@ custom/*
 !custom/autojump.plugin.zsh
 !custom/osx.plugin.zsh
 cache
+*.swp
