@@ -8,3 +8,38 @@ EOF
 
 
 }
+
+function ovpn_tunnel_list(){
+osascript <<EOF
+tell application "Tunnelblick"
+    get configurations
+    get state of configurations
+end tell
+EOF
+}
+
+function ovpn_tunnel_connect(){
+osascript <<EOF
+tell application "Tunnelblick"
+	set cups to get name of configurations where state = "Connected"
+	if cups contains "$1" then
+		"already connected"
+	else
+		connect "locojay/locojay"
+	end if
+end tell
+EOF
+}
+
+function ovpn_tunnel_disconnect(){
+osascript <<EOF
+tell application "Tunnelblick"
+	set cups to get name of configurations where state = "Connected"
+	if cups contains "$1" then
+		disconnect "locojay/locojay"
+	else
+		"already disconnected"
+	end if
+end tell
+EOF
+}
