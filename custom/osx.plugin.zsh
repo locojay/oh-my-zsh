@@ -9,11 +9,10 @@ EOF
 
 }
 
-function ovpn_tunnel_list(){
+function ovpn_tunnel_listconnected(){
 osascript <<EOF
 tell application "Tunnelblick"
-    get configurations
-    get state of configurations
+	get name of configurations where state = "Connected"
 end tell
 EOF
 }
