@@ -25,7 +25,7 @@ tell application "Tunnelblick"
 	if cups contains "$1" then
 		"already connected"
 	else
-		connect "locojay/locojay"
+		connect "$1"
 	end if
 end tell
 EOF
@@ -36,7 +36,7 @@ osascript <<EOF
 tell application "Tunnelblick"
 	set cups to get name of configurations where state = "Connected"
 	if cups contains "$1" then
-		disconnect "locojay/locojay"
+		disconnect "$1"
 	else
 		"already disconnected"
 	end if
