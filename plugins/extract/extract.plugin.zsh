@@ -2,7 +2,7 @@
 #          FILE:  extract.plugin.zsh
 #   DESCRIPTION:  oh-my-zsh plugin file.
 #        AUTHOR:  Sorin Ionescu (sorin.ionescu@gmail.com)
-#       VERSION:  1.0.2
+#       VERSION:  1.0.1
 # ------------------------------------------------------------------------------
 
 
@@ -23,7 +23,7 @@ function extract() {
 
   remove_archive=1
   if [[ "$1" == "-r" ]] || [[ "$1" == "--remove" ]]; then
-    remove_archive=0 
+    remove_archive=0
     shift
   fi
 
@@ -64,10 +64,10 @@ function extract() {
         cd ..; rm *.tar.gz debian-binary
         cd ..
       ;;
-      (*) 
+      (*)
         echo "extract: '$1' cannot be extracted" 1>&2
-        success=1 
-      ;; 
+        success=1
+      ;;
     esac
 
     (( success = $success > 0 ? $success : $? ))
@@ -77,3 +77,9 @@ function extract() {
 }
 
 alias x=extract
+
+# add extract completion function to path
+fpath=($ZSH/plugins/extract $fpath)
+autoload -U compinit
+compinit -i
+
