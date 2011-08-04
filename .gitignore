@@ -7,5 +7,6 @@ custom/*
 !custom/example.zsh
 !custom/autojump.plugin.zsh
 !custom/osx.plugin.zsh
+!custom/virtualenvwrapper.plugin.zsh
 cache
 *.swp
