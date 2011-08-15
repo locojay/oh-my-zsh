@@ -1,3 +1,4 @@
+.DS_Store
 locals.zsh
 log/.zsh_history
 projects.zsh
@@ -7,5 +8,6 @@ custom/*
 !custom/example.zsh
 !custom/autojump.plugin.zsh
 !custom/osx.plugin.zsh
+!custom/virtualenvwrapper.plugin.zsh
 cache
 *.swp

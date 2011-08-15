@@ -89,3 +89,5 @@ alias iconvutf8="iconv -f ISO8859-1 -t UTF-8"
 alias glpp="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
 alias gsubu="git submodule foreach git checkout master && git submodule foreach git pull"
+
+export CORRECT_IGNORE=node
