@@ -82,7 +82,7 @@ alias tls="tmux list-sessions"
 alias ta="tmux attach -t"
 
 alias pjson="python -m json.tool"
-alias ipython="ipython --editor vim"
+#alias ipython="ipython --editor vim"
 
 alias iconvutf8="iconv -f ISO8859-1 -t UTF-8"
 
