@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-export ZSH_THEME="robbyrussell"
+#export ZSH_THEME="robbyrussell"
 export ZSH_THEME="nicoulaj"
 #MODE_INDICATOR="%{$fg_bold[cyan]%}-- CMD MODE -- $R"
 # Set to this to use case-sensitive completion
@@ -18,12 +18,12 @@ export DISABLE_AUTO_UPDATE="true"
 # export DISABLE_COLOR="true"
 
 # Uncomment following line if you want to disable autosetting terminal title.
-# export DISABLE_AUTO_TITLE="true"
+export DISABLE_AUTO_TITLE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric)
-
+#plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric)
+plugins=(git vi-mode brew autojump osx source-highlight virtualenvwrapper fabric extract)
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$HOME/.bin:$PATH
