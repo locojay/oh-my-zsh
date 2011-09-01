@@ -49,3 +49,5 @@ alias glpp="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 alias gsubu="git submodule foreach git checkout master && git submodule foreach git pull"
 
 export CORRECT_IGNORE=node
+
+alias pyclean='find . -type f -name "*.py[co]" -exec rm -f \{\} \;'
