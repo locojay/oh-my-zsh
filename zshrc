@@ -22,8 +22,9 @@ export DISABLE_AUTO_TITLE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-#plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric)
-plugins=(git vi-mode brew autojump osx source-highlight virtualenvwrapper fabric extract)
+#plugins=(git vi-mode brew autojump osx source-highlight virtualenvwrapper fabric extract)
+plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric vagrant)
+
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$HOME/.bin:$PATH
