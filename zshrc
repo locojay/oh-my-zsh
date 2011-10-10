@@ -31,6 +31,7 @@ export PATH=$HOME/.bin:$PATH
 export PATH=$HOME/bin:$PATH
 export IPYTHONDIR=$HOME/.ipython
 source ~/.profile
+source ~/.rvm/scripts/rvm
 
 #Group matches and Describe
 zstyle ':completion:*:matches' group 'yes'
