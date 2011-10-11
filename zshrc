@@ -29,6 +29,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$HOME/.bin:$PATH
 export PATH=$HOME/bin:$PATH
+export PATH=/usr/local/Cellar/ruby/1.9.2-p290/bin:$PATH
 export IPYTHONDIR=$HOME/.ipython
 source ~/.profile
 
