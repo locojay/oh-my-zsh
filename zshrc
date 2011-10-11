@@ -32,6 +32,7 @@ export PATH=$HOME/bin:$PATH
 export PATH=/usr/local/Cellar/ruby/1.9.2-p290/bin:$PATH
 export IPYTHONDIR=$HOME/.ipython
 source ~/.profile
+source ~/.rvm/scripts/rvm
 
 #Group matches and Describe
 zstyle ':completion:*:matches' group 'yes'
