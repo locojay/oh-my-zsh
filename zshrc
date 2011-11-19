@@ -1,3 +1,4 @@
+#set -x
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -24,6 +25,7 @@ export DISABLE_AUTO_TITLE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 #plugins=(git vi-mode brew autojump osx source-highlight virtualenvwrapper fabric extract)
 plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric vagrant)
+#plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump source-highlight fabric vagrant)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
