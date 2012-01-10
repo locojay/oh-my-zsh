@@ -21,6 +21,8 @@ export DISABLE_AUTO_UPDATE="true"
 # Uncomment following line if you want to disable autosetting terminal title.
 export DISABLE_AUTO_TITLE="true"
 
+source ~/.profile
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git git-flow brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric vagrant, nyan)
@@ -32,7 +34,6 @@ export PATH=$HOME/.bin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=/usr/local/Cellar/ruby/1.9.2-p290/bin:$PATH
 export IPYTHONDIR=$HOME/.ipython
-source ~/.profile
 #source ~/.rvm/scripts/rvm
 
 #Group matches and Describe
