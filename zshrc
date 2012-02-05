@@ -25,7 +25,7 @@ source ~/.profile
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric vagrant, nyan)
+plugins=(git git-flow brew vi-mode pip osx syntax-highlighting extract autojump virtualenvwrapper source-highlight fabric vagrant, nyan, vundle)
 #plugins=(git git-flow gem brew vi-mode pip osx syntax-highlighting extract autojump source-highlight fabric vagrant)
 compctl -g '~/.teamocil/*(:t:r)' teamocil
 
