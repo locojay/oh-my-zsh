@@ -8,4 +8,3 @@ ohmyzshf=$(pwd)
 SYMLINK="ln -fs"
 
 $SYMLINK $ohmyzshf/zshrc $HOME/.zshrc
-$SYMLINK $ohmyzshf $HOME/.oh-my-zsh
