@@ -51,3 +51,7 @@ alias gsubu="git submodule foreach git checkout master && git submodule foreach 
 export CORRECT_IGNORE=node
 
 alias pyclean='find . -type f -name "*.py[co]" -exec rm -f \{\} \;'
+
+alias mongo = 'rlwrap -a dummy mongo'
+alias clj = 'rlwrap -a dummy clj'
+alias cdp = 'cd $PROJECT_HOME'
