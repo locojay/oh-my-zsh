@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #export ZSH_THEME="robbyrussell"
 # export ZSH_THEME="nicoulaj"
-export ZSH_THEME="sorin"
+export ZSH_THEME="locojay"
 #MODE_INDICATOR="%{$fg_bold[cyan]%}-- CMD MODE -- $R"
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
